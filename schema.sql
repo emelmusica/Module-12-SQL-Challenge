@@ -12,3 +12,6 @@ CREATE TABLE role (
     department_id iNT,
     FOREIGN KEY (department_id) REFERENCES department(id)
 );
+
+-- Create employee table
+CREATE TABLE employee ()
