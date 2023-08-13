@@ -8,3 +8,4 @@ class DB {
     }
 }
 
+SELECT * FROM department
