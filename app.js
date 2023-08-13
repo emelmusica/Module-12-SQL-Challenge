@@ -21,5 +21,24 @@ function startApp() {
                 'Exit'
             ]
         }
-    ])
+        // asynchronous operation for options to view, add, update, or exit the application.
+    ]).then(answer => {
+        switch (answer.action) {
+                case 'View all departments':
+            break;
+                case 'View all employees':
+            break;
+                case 'Add a department':
+            break;
+                case 'Add a role':
+            break;
+                case 'Add an employee':
+            break;
+                case 'Update an employee role':
+            break;
+                case 'Exit':
+                    console.log('Goodbye!');
+                    process.exit();
+        }
+    });
 }
