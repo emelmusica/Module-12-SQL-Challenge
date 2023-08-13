@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS module_11_challenge;
+
+CREATE DATABASE module_11_challenge;
+
 -- Use correct database
 USE module_11_challenge;
 
