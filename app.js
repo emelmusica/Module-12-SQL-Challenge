@@ -22,7 +22,9 @@ function startApp() {
             ]
         }
         // asynchronous operation for options to view, add, update, or exit the application.
-    ]).then(answer => {
+    ]).then(answer => { 
+        
+        // After the user selects an option, handle their choice with a switch statement
         switch (answer.action) {
                 case 'View all departments':
             break;
