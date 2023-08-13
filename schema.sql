@@ -1,3 +1,6 @@
+-- Use correct database
+USE module_11_challenge;
+
 -- Create the Department table
 CREATE TABLE department (
     id INT AUTO_INCREMENT PRIMARY KEY, 
