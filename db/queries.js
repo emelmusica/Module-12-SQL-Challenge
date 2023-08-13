@@ -6,6 +6,12 @@ class DB {
     constructor(connection) {
         this.connection = connection;
     }
+
+// Implement SQL queries methods
+getAllDepartments() {
+    return this.connection.query('SELECT * FROM department');
 }
 
-SELECT * FROM department
+} // Implement other methods
+
+modele.exports = new DB(connection);
