@@ -41,3 +41,13 @@ app.post('/api/employees', (req, res) => {
     const { role_id } = req.body;
 });
 
+// Update employee role
+app.put('/api/employees/:id', (req, res) => {
+    const employeeID = req.params.id;
+    const { role_id } = req.body;
+});
+
+// Start Server
+app.listen(PORT, () => {
+    console.log('Server is running on port ${PORT}');
+});
