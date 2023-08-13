@@ -42,3 +42,6 @@ function startApp() {
         }
     });
 }
+
+// Call the startApp function to begin the application
+startApp();
