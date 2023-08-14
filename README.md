@@ -28,15 +28,15 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 # Usage: 
 
-1.Install npm init -y to create a new .json file
-2.npm i
-3.npm i inquirer
-4.npm i mysql
-5.npm i console.table
-6.make sure to run .sql file in mySQL workbench before running server.js so that tables are able to render correctly
-7.run node server.js
-8.make sure server.js is connected to SQL before continuing
-9.run through prompts as required
+- Install npm init -y to create a new .json file
+- npm i
+- npm i inquirer
+- npm i mysql
+- npm i console.table
+- make sure to run .sql file in mySQL workbench before running server.js so that tables are able to render correctly
+- run node server.js
+- make sure server.js is connected to SQL before continuing
+- run through prompts as required
 
 # Tech used: 
 - inquirer
