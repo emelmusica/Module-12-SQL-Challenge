@@ -32,3 +32,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 - console.table
 - Javascript
 - Node.js
+
+# Project Repo & Video link:
+
+https://github.com/emelmusica/Module-12-SQL-Challenge.git
+
+https://youtu.be/6IxY09Csigo
