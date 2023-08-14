@@ -28,7 +28,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 # Tech used: 
 - inquirer
-- mySQL
+- mySQL2
 - console.table
 - Javascript
 - Node.js
