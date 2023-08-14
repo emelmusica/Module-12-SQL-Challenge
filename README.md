@@ -81,7 +81,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 https://github.com/emelmusica/Module-12-SQL-Challenge.git
 
-https://youtu.be/6IxY09Csigo
+https://www.youtube.com/watch?v=6IxY09Csigo
 
 
 ![Alt text](<assets/Screen shot for readme.png>)
